@@ -1,0 +1,27 @@
+{
+  "name": "socket.io-notification",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "",
+    "socket": "nodemon ./src/ws/server.js",
+    "dev": "nodemon ./src/api/server.js"
+  },
+  "author": "Vinicius Rocha",
+  "license": "ISC",
+  "dependencies": {
+    "kcors": "2.2.2",
+    "koa": "2.5.2",
+    "koa-bodyparser": "^4.2.0",
+    "koa-compose": "4.1.0",
+    "koa-joi-router": "5.1.0",
+    "koa-joi-router-docs": "0.1.9",
+    "mongoose": "^5.3.4",
+    "socket.io": "^2.1.1"
+  },
+  "devDependencies": {
+    "dotenv": "^6.1.0",
+    "nodemon": "^1.18.4"
+  }
+}
